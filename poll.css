@@ -1,0 +1,15 @@
+div.statsfc_poll table {                                display: table; width: 100%; border-collapse: collapse; }
+div.statsfc_poll th {                                   white-space: inherit; }
+div.statsfc_poll th,
+div.statsfc_poll td {                                   text-align: left; padding: 2px 5px; }
+div.statsfc_poll thead th {                             text-transform: uppercase; font-size: small; background-color: silver; }
+div.statsfc_poll .statsfc_highlight .statsfc_votesBar { background-color: #9ce; }
+div.statsfc_poll .statsfc_radio {                       padding-left: .25em; margin-right: .5em; }
+div.statsfc_poll .statsfc_answer,
+div.statsfc_poll .statsfc_votes {                       white-space: nowrap; }
+div.statsfc_poll .statsfc_votes {                       text-align: right; }
+div.statsfc_poll .statsfc_bar {                         width: 100%; position: relative; }
+div.statsfc_poll .statsfc_votesBar {                    display: inline-block; height: 1.2em; margin-bottom: -0.18em; min-width: 6px; background-color: #ddd; border-radius: 3px; }
+div.statsfc_poll .statsfc_submit {                      text-align: center; }
+div.statsfc_poll div.statsfc_ad {                       display: block !important; text-align: center; margin-top: 10px; }
+div.statsfc_poll div.statsfc_footer {                   display: block !important; text-align: right; }
