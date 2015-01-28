@@ -4,7 +4,7 @@ Donate link:
 Tags: widget, poll, survey
 Requires at least: 3.3
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,7 +38,7 @@ You can also use the `[statsfc-poll]` shortcode, with the following options:
 
 == Changelog ==
 
-
+**1.0.1**: Indicate the poll leader
 
 == Upgrade notice ==
 

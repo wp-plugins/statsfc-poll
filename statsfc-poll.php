@@ -3,7 +3,7 @@
 Plugin Name: StatsFC Poll
 Plugin URI: https://statsfc.com/docs/wordpress
 Description: StatsFC Poll
-Version: 1.0
+Version: 1.0.1
 Author: Will Woodward
 Author URI: http://willjw.co.uk
 License: GPL2
@@ -167,6 +167,7 @@ HTML;
 				$id          = esc_attr($answer->id);
 				$class       = '';
 				$radio       = '';
+				$winner      = '';
 				$description = esc_attr($answer->description);
 				$votes       = '';
 				$bar         = '';
@@ -174,6 +175,10 @@ HTML;
 				if (is_null($cookie)) {
 					$radio = '<span class="statsfc_radio"><input type="radio" name="statsfc_poll_' . $question_id . '" value="' . $answer->id . '"></span>';
 				} else {
+					if ($json->question->mostVotes == $answer->votes) {
+						$winner = 'statsfc_winner';
+					}
+
 					$votes = number_format($answer->votes);
 					$width = 0;
 
@@ -193,7 +198,7 @@ HTML;
 					<td class="statsfc_answer">
 						<label>
 							{$radio}
-							<span>{$description}</span>
+							<span class="statsfc_description {$winner}">{$description}</span>
 						</label>
 					</td>
 					<td class="statsfc_votes">{$votes}</td>

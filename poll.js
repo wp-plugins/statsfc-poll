@@ -50,6 +50,10 @@ $j(function() {
 						$row.addClass('statsfc_highlight');
 					}
 
+					if (answer.votes == data.question.mostVotes) {
+						$row.find('span.statsfc_description').addClass('statsfc_winner');
+					}
+
 					$row.find('.statsfc_radio').remove();
 
 					$row.find('.statsfc_votes').text(statsfc_numberFormat(answer.votes));
