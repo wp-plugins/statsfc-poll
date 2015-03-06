@@ -3,7 +3,7 @@
 Plugin Name: StatsFC Poll
 Plugin URI: https://statsfc.com/docs/wordpress
 Description: StatsFC Poll
-Version: 1.0.1
+Version: 1.0.2
 Author: Will Woodward
 Author URI: http://willjw.co.uk
 License: GPL2
