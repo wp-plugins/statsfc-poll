@@ -12,5 +12,4 @@ div.statsfc_poll .statsfc_votes {                       text-align: right; }
 div.statsfc_poll .statsfc_bar {                         width: 100%; position: relative; }
 div.statsfc_poll .statsfc_votesBar {                    display: inline-block; height: 1.2em; margin-bottom: -0.18em; min-width: 6px; background-color: #ddd; border-radius: 3px; }
 div.statsfc_poll .statsfc_submit {                      text-align: center; }
-div.statsfc_poll div.statsfc_ad {                       display: block !important; text-align: center; margin-top: 10px; }
 div.statsfc_poll div.statsfc_footer {                   display: block !important; text-align: right; }
