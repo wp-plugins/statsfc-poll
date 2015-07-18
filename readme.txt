@@ -3,8 +3,8 @@ Contributors: willjw
 Donate link:
 Tags: widget, poll, survey
 Requires at least: 3.3
-Tested up to: 4.1
-Stable tag: 1.0.2
+Tested up to: 4.2.2
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,6 +41,8 @@ You can also use the `[statsfc-poll]` shortcode, with the following options:
 **1.0.1**: Indicate the poll leader
 
 **1.0.2**: Allow more discrete ads for ad-supported accounts
+
+**1.1**: Converted to JS widget
 
 == Upgrade notice ==
 
