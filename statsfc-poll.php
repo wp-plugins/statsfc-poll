@@ -3,7 +3,7 @@
 Plugin Name: StatsFC Poll
 Plugin URI: https://statsfc.com/widgets/poll
 Description: StatsFC Poll
-Version: 1.1
+Version: 1.2
 Author: Will Woodward
 Author URI: http://willjw.co.uk
 License: GPL2
@@ -27,7 +27,7 @@ License: GPL2
 
 define('STATSFC_POLL_ID',      'StatsFC_Poll');
 define('STATSFC_POLL_NAME'  ,  'StatsFC Poll');
-define('STATSFC_POLL_VERSION', '1.1');
+define('STATSFC_POLL_VERSION', '1.2');
 
 /**
  * Adds widget
@@ -127,7 +127,7 @@ class StatsFC_Poll extends WP_Widget
         $title       = apply_filters('widget_title', $instance['title']);
         $unique_id   = ++static::$count;
         $key         = $instance['key'];
-        $referer     = (array_key_exists('HTTP_REFERER', $_SERVER) ? parse_url($_SERVER['HTTP_REFERER'], PHP_URL_HOST) : '');
+        $referer     = (array_key_exists('HTTP_HOST', $_SERVER) ? $_SERVER['HTTP_HOST'] : '');
 
         $options = array(
             'question_id' => (int) $instance['question_id']

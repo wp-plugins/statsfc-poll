@@ -4,7 +4,7 @@ Donate link:
 Tags: widget, poll, survey
 Requires at least: 3.3
 Tested up to: 4.2.2
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,8 @@ You can also use the `[statsfc-poll]` shortcode, with the following options:
 **1.0.2**: Allow more discrete ads for ad-supported accounts
 
 **1.1**: Converted to JS widget
+
+**1.2**: Fixed "Invalid domain" bug caused by referal domain
 
 == Upgrade notice ==
 
